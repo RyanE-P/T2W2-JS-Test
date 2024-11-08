@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
 "scripts": {
-  "start": "node src/index.js",
-  "test": "jest"
-},
+    "start": "node src/index.js",
+    "test": "jest",
+    "testWatch": "jest --watch",
+    "testCoverage": "jest --coverage"
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
